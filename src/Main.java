@@ -1,9 +1,8 @@
+// Identity Matrix diagonal matrix
 import java.util.ArrayList;
 public class Main {
-
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> matriz = new ArrayList<>();
-     //   Scanner sc = new Scanner(System.in);
         int columns = 5;
         for(int y = 0; y < columns; y++) {
             ArrayList<Integer> linha = new ArrayList<>();
@@ -12,8 +11,6 @@ public class Main {
                     linha.add(1);
                 else
                     linha.add(0);
-               // System.out.println("Escreva um Número:");
-               /// linha.add(sc.nextInt());
             }
             matriz.add(linha);
         }
